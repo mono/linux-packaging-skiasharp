@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340303831C404C3D00630F26 /* sk_xamarin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 340303821C404C3D00630F26 /* sk_xamarin.cpp */; };
+		3403038F1C404FD100630F26 /* sk_xamarin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3403038E1C404FD100630F26 /* sk_xamarin.h */; };
+		3403039C1C40543C00630F26 /* sk_managedstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 340303981C40543C00630F26 /* sk_managedstream.cpp */; };
+		3403039D1C40543C00630F26 /* sk_managedstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 340303991C40543C00630F26 /* sk_managedstream.h */; };
+		3403039E1C40543C00630F26 /* SkManagedStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3403039A1C40543C00630F26 /* SkManagedStream.cpp */; };
+		3403039F1C40543C00630F26 /* SkManagedStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3403039B1C40543C00630F26 /* SkManagedStream.h */; };
+		343CCD2B1E75FF3E000EC0A6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CCD2A1E75FF3E000EC0A6 /* CoreText.framework */; };
+		343CCD2D1E75FF47000EC0A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CCD2C1E75FF47000EC0A6 /* CoreGraphics.framework */; };
+		343CCD2F1E75FF54000EC0A6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CCD2E1E75FF54000EC0A6 /* CoreFoundation.framework */; };
+		343CCD311E75FF71000EC0A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CCD301E75FF71000EC0A6 /* Cocoa.framework */; };
+		343DAE301C3F26CF00FAD826 /* SkiaKeeper.c in Sources */ = {isa = PBXBuildFile; fileRef = 343DAE2E1C3F26CF00FAD826 /* SkiaKeeper.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21C951551C03D27A003A1E1D /* libSkiaSharp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSkiaSharp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		340303821C404C3D00630F26 /* sk_xamarin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sk_xamarin.cpp; path = ../src/sk_xamarin.cpp; sourceTree = "<group>"; };
+		3403038E1C404FD100630F26 /* sk_xamarin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sk_xamarin.h; path = ../src/sk_xamarin.h; sourceTree = "<group>"; };
+		340303981C40543C00630F26 /* sk_managedstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sk_managedstream.cpp; path = ../src/sk_managedstream.cpp; sourceTree = "<absolute>"; };
+		340303991C40543C00630F26 /* sk_managedstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sk_managedstream.h; path = ../src/sk_managedstream.h; sourceTree = "<absolute>"; };
+		3403039A1C40543C00630F26 /* SkManagedStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SkManagedStream.cpp; path = ../src/SkManagedStream.cpp; sourceTree = "<absolute>"; };
+		3403039B1C40543C00630F26 /* SkManagedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkManagedStream.h; path = ../src/SkManagedStream.h; sourceTree = "<absolute>"; };
+		343CCD261E75FD47000EC0A6 /* libskia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libskia.a; path = ../../externals/skia/out/mac/x64/libskia.a; sourceTree = "<group>"; };
+		343CCD281E75FF29000EC0A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		343CCD2A1E75FF3E000EC0A6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		343CCD2C1E75FF47000EC0A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		343CCD2E1E75FF54000EC0A6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		343CCD301E75FF71000EC0A6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		343DAE2E1C3F26CF00FAD826 /* SkiaKeeper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SkiaKeeper.c; path = ../src/SkiaKeeper.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21C951521C03D27A003A1E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343CCD311E75FF71000EC0A6 /* Cocoa.framework in Frameworks */,
+				343CCD2F1E75FF54000EC0A6 /* CoreFoundation.framework in Frameworks */,
+				343CCD2D1E75FF47000EC0A6 /* CoreGraphics.framework in Frameworks */,
+				343CCD2B1E75FF3E000EC0A6 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C9514C1C03D27A003A1E1D = {
+			isa = PBXGroup;
+			children = (
+				21C951561C03D27A003A1E1D /* Products */,
+				343DAE2D1C3F26BF00FAD826 /* Source */,
+				343CCD251E75FD47000EC0A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21C951561C03D27A003A1E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C951551C03D27A003A1E1D /* libSkiaSharp.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		343CCD251E75FD47000EC0A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				343CCD301E75FF71000EC0A6 /* Cocoa.framework */,
+				343CCD2E1E75FF54000EC0A6 /* CoreFoundation.framework */,
+				343CCD2C1E75FF47000EC0A6 /* CoreGraphics.framework */,
+				343CCD2A1E75FF3E000EC0A6 /* CoreText.framework */,
+				343CCD281E75FF29000EC0A6 /* QuartzCore.framework */,
+				343CCD261E75FD47000EC0A6 /* libskia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		343DAE2D1C3F26BF00FAD826 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				340303981C40543C00630F26 /* sk_managedstream.cpp */,
+				340303991C40543C00630F26 /* sk_managedstream.h */,
+				3403039A1C40543C00630F26 /* SkManagedStream.cpp */,
+				3403039B1C40543C00630F26 /* SkManagedStream.h */,
+				3403038E1C404FD100630F26 /* sk_xamarin.h */,
+				340303821C404C3D00630F26 /* sk_xamarin.cpp */,
+				343DAE2E1C3F26CF00FAD826 /* SkiaKeeper.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21C951531C03D27A003A1E1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3403039F1C40543C00630F26 /* SkManagedStream.h in Headers */,
+				3403039D1C40543C00630F26 /* sk_managedstream.h in Headers */,
+				3403038F1C404FD100630F26 /* sk_xamarin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21C951541C03D27A003A1E1D /* libSkiaSharp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C9515E1C03D27A003A1E1D /* Build configuration list for PBXNativeTarget "libSkiaSharp" */;
+			buildPhases = (
+				21C951511C03D27A003A1E1D /* Sources */,
+				21C951521C03D27A003A1E1D /* Frameworks */,
+				21C951531C03D27A003A1E1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libSkiaSharp;
+			productName = libSkiaSharp;
+			productReference = 21C951551C03D27A003A1E1D /* libSkiaSharp.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21C9514D1C03D27A003A1E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Xamarin;
+				TargetAttributes = {
+					21C951541C03D27A003A1E1D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 21C951501C03D27A003A1E1D /* Build configuration list for PBXProject "libSkiaSharp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21C9514C1C03D27A003A1E1D;
+			productRefGroup = 21C951561C03D27A003A1E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C951541C03D27A003A1E1D /* libSkiaSharp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21C951511C03D27A003A1E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343DAE301C3F26CF00FAD826 /* SkiaKeeper.c in Sources */,
+				340303831C404C3D00630F26 /* sk_xamarin.cpp in Sources */,
+				3403039C1C40543C00630F26 /* sk_managedstream.cpp in Sources */,
+				3403039E1C40543C00630F26 /* SkManagedStream.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21C9515C1C03D27A003A1E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SK_INTERNAL,
+					SK_GAMMA_SRGB,
+					SK_GAMMA_APPLY_TO_A8,
+					"SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1",
+					"SK_SUPPORT_GPU=1",
+					"SK_SUPPORT_OPENCL=0",
+					"SK_FORCE_DISTANCE_FIELD_TEXT=0",
+					SK_BUILD_FOR_MAC,
+					"SK_DEVELOPER=1",
+					SKIA_C_DLL,
+					"SKIA_IMPLEMENTATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+			};
+			name = Debug;
+		};
+		21C9515D1C03D27A003A1E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SK_INTERNAL,
+					SK_GAMMA_SRGB,
+					SK_GAMMA_APPLY_TO_A8,
+					"SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1",
+					"SK_SUPPORT_GPU=1",
+					"SK_SUPPORT_OPENCL=0",
+					"SK_FORCE_DISTANCE_FIELD_TEXT=0",
+					SK_BUILD_FOR_MAC,
+					NDEBUG,
+					SKIA_C_DLL,
+					"SKIA_IMPLEMENTATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		21C9515F1C03D27A003A1E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_CPP_RTTI = NO;
+				HEADER_SEARCH_PATHS = (
+					../../externals/skia/src/c,
+					../../externals/skia/include/c,
+					../../externals/skia/include/core,
+					../../externals/skia/include/codec,
+					../../externals/skia/include/effects,
+					../../externals/skia/include/pathops,
+					../../externals/skia/include/gpu,
+					../../externals/skia/include/utils,
+					../../externals/skia/include/ports,
+					../../externals/skia/include/config,
+					../../externals/skia/include/xml,
+					../../externals/skia/include/svg,
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "../../externals/skia/out/mac/$(ARCHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "-lskia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21C951601C03D27A003A1E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_CPP_RTTI = NO;
+				HEADER_SEARCH_PATHS = (
+					../../externals/skia/src/c,
+					../../externals/skia/include/c,
+					../../externals/skia/include/core,
+					../../externals/skia/include/codec,
+					../../externals/skia/include/effects,
+					../../externals/skia/include/pathops,
+					../../externals/skia/include/gpu,
+					../../externals/skia/include/utils,
+					../../externals/skia/include/ports,
+					../../externals/skia/include/config,
+					../../externals/skia/include/xml,
+					../../externals/skia/include/svg,
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "../../externals/skia/out/mac/$(ARCHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "-lskia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21C951501C03D27A003A1E1D /* Build configuration list for PBXProject "libSkiaSharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C9515C1C03D27A003A1E1D /* Debug */,
+				21C9515D1C03D27A003A1E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C9515E1C03D27A003A1E1D /* Build configuration list for PBXNativeTarget "libSkiaSharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C9515F1C03D27A003A1E1D /* Debug */,
+				21C951601C03D27A003A1E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21C9514D1C03D27A003A1E1D /* Project object */;
+}

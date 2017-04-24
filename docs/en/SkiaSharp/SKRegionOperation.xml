@@ -1,0 +1,152 @@
+<Type Name="SKRegionOperation" FullName="SkiaSharp.SKRegionOperation">
+  <TypeSignature Language="C#" Value="public enum SKRegionOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SKRegionOperation extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>SkiaSharp</AssemblyName>
+    <AssemblyVersion>1.49.0.0</AssemblyVersion>
+    <AssemblyVersion>1.52.0.0</AssemblyVersion>
+    <AssemblyVersion>1.53.0.0</AssemblyVersion>
+    <AssemblyVersion>1.54.0.0</AssemblyVersion>
+    <AssemblyVersion>1.54.0.0</AssemblyVersion>
+    <AssemblyVersion>1.55.0.0</AssemblyVersion>
+    <AssemblyVersion>1.56.0.0</AssemblyVersion>
+    <AssemblyVersion>1.57.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The logical operations that can be performed when combining two regions.</summary>
+    <remarks>
+      <para></para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Difference">
+      <MemberSignature Language="C#" Value="Difference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKRegionOperation Difference = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKRegionOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Subtract the op region from the first region.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Intersect">
+      <MemberSignature Language="C#" Value="Intersect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKRegionOperation Intersect = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKRegionOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Intersect the two regions.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replace">
+      <MemberSignature Language="C#" Value="Replace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKRegionOperation Replace = int32(5)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKRegionOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Replace the destination region with the op region.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReverseDifference">
+      <MemberSignature Language="C#" Value="ReverseDifference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKRegionOperation ReverseDifference = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKRegionOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Subtract the first region from the op region.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Union">
+      <MemberSignature Language="C#" Value="Union" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKRegionOperation Union = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKRegionOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Union (inclusive-or) the two regions.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="XOR">
+      <MemberSignature Language="C#" Value="XOR" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKRegionOperation XOR = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKRegionOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exclusive-or the two regions.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

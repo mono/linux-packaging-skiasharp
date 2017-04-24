@@ -1,0 +1,71 @@
+<Type Name="SKDropShadowImageFilterShadowMode" FullName="SkiaSharp.SKDropShadowImageFilterShadowMode">
+  <TypeSignature Language="C#" Value="public enum SKDropShadowImageFilterShadowMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SKDropShadowImageFilterShadowMode extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>SkiaSharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.49.0.0</AssemblyVersion>
+    <AssemblyVersion>1.52.0.0</AssemblyVersion>
+    <AssemblyVersion>1.53.0.0</AssemblyVersion>
+    <AssemblyVersion>1.54.0.0</AssemblyVersion>
+    <AssemblyVersion>1.54.0.0</AssemblyVersion>
+    <AssemblyVersion>1.55.0.0</AssemblyVersion>
+    <AssemblyVersion>1.56.0.0</AssemblyVersion>
+    <AssemblyVersion>1.57.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The various types of shadow modes for use with the <see cref="M:SkiaSharp.SKImageFilter.CreateDropShadow" /> method.</summary>
+    <remarks>
+      <para></para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DrawShadowAndForeground">
+      <MemberSignature Language="C#" Value="DrawShadowAndForeground" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKDropShadowImageFilterShadowMode DrawShadowAndForeground = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKDropShadowImageFilterShadowMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw both the shadow and the foreground.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawShadowOnly">
+      <MemberSignature Language="C#" Value="DrawShadowOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype SkiaSharp.SKDropShadowImageFilterShadowMode DrawShadowOnly = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.49.0.0</AssemblyVersion>
+        <AssemblyVersion>1.52.0.0</AssemblyVersion>
+        <AssemblyVersion>1.53.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.54.0.0</AssemblyVersion>
+        <AssemblyVersion>1.55.0.0</AssemblyVersion>
+        <AssemblyVersion>1.56.0.0</AssemblyVersion>
+        <AssemblyVersion>1.57.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkiaSharp.SKDropShadowImageFilterShadowMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the shadow only.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
