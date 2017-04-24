@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+MAKEFILE = $(firstword $(MAKEFILE_LIST))
+DEBIAN_DIR = $(dir $(MAKEFILE))
+TEMP_HOME = $(abspath $(DEBIAN_DIR))/homedir/
+
+override_dh_clean:
+	rm -rf $(TEMP_HOME)
+	dh_clean
+
+override_dh_auto_configure:
+	true
+
+override_dh_auto_build:
+	mkdir -p $(TEMP_HOME)
+	HOME=$(TEMP_HOME) ./bootstrapper.sh -t externals
+
+%:
+	dh --with cli $@
