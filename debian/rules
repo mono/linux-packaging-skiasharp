@@ -2,6 +2,11 @@
 MAKEFILE = $(firstword $(MAKEFILE_LIST))
 DEBIAN_DIR = $(dir $(MAKEFILE))
 TEMP_HOME = $(abspath $(DEBIAN_DIR))/homedir/
+ifeq ($(shell dpkg-architecture -qDEB_HOST_ARCH_BITS),32)
+  LINUX32 = "linux32"
+else
+  LINUX32 = ""
+endif
 
 override_dh_clean:
 	rm -rf $(TEMP_HOME)
@@ -12,7 +17,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	mkdir -p $(TEMP_HOME)
-	HOME=$(TEMP_HOME) ./bootstrapper.sh -t externals
+	HOME=$(TEMP_HOME) $(LINUX32) ./bootstrapper.sh -t externals
 
 %:
 	dh --with cli $@
