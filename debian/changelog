@@ -1,3 +1,9 @@
+skiasharp (1.57.0-0xamarin3) alpha; urgency=medium
+
+  * Packaging bugfix:
+
+ -- Xamarin Public Jenkins (auto-signing) <releng@xamarin.com>  Tue, 25 Apr 2017 13:41:06 +0000
+
 skiasharp (1.57.0-0xamarin2) alpha; urgency=medium
 
   * Packaging bugfix:
